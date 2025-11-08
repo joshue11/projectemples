@@ -1,0 +1,56 @@
+body {
+    background: #fff;
+    color: #222;
+}
+
+/* Header */
+header {
+    justify-content: flex-start;
+    padding: 1rem 2rem;
+}
+
+#hamburger {
+    display: none; /* Oculta el botón hamburguesa en pantallas grandes */
+}
+
+nav {
+    display: flex !important;
+    position: static;
+    width: auto;
+    flex-direction: row;
+    border-radius: 0;
+}
+
+nav a {
+    padding: 0 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    background-color: transparent;
+    color: #5e2a9e;
+}
+
+/* Main */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+/* Gallery: grid con 3 columnas */
+.gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    justify-items: center;
+}
+
+figure img {
+    max-width: 100%;
+}
+
+/* Footer */
+footer {
+    font-size: 1rem;
+}

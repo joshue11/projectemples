@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Temple Album</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Merriweather&display=swap" rel="stylesheet" />
+    <!-- CSS Mobile First -->
+    <link rel="stylesheet" href="styles/temples.css" />
+    <!-- CSS Larger Screens -->
+    <link rel="stylesheet" href="styles/temples-large.css" media="screen and (min-width: 768px)" />
+    <!-- JavaScript -->
+    <script defer src="scripts/temples.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="hamburger" aria-label="Toggle menu">&#9776;</button>
+        <nav id="main-nav" class="hide-nav">
+            <a href="#">Home</a>
+            <a href="#">Old</a>
+            <a href="#">New</a>
+            <a href="#">Large</a>
+            <a href="#">Small</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Home</h2>
+        <section class="gallery">
+            <!-- Nueve figuras con imagenes y captions -->
+            <figure>
+                <img src="images/temple1.jpg" alt="Temple 1 in San Diego California" />
+                <figcaption>San Diego California</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple2.jpg" alt="Temple 2 in Salt Lake City Utah" />
+                <figcaption>Salt Lake City Utah</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple3.jpg" alt="Temple 3 in Provo Utah" />
+                <figcaption>Provo Utah</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple4.jpg" alt="Temple 4 in Mesa Arizona" />
+                <figcaption>Mesa Arizona</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple5.jpg" alt="Temple 5 in Laie Hawaii" />
+                <figcaption>Laie Hawaii</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple6.jpg" alt="Temple 6 in Nauvoo Illinois" />
+                <figcaption>Nauvoo Illinois</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple7.jpg" alt="Temple 7 in Washington D.C." />
+                <figcaption>Washington D.C.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple8.jpg" alt="Temple 8 in Palmyra New York" />
+                <figcaption>Palmyra New York</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple9.jpg" alt="Temple 9 in Kirtland Ohio" />
+                <figcaption>Kirtland Ohio</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>©<span id="year"></span> Your Name - Last Modified: <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>
